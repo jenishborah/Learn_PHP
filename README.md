@@ -1,4 +1,5 @@
 # Learn_PHP
+
 **README.md**
 
 # PHP Installation Guide for Windows
@@ -25,7 +26,19 @@ WampServer is another popular option for installing PHP on Windows. Here's how t
 4. Complete the installation process.
 5. Start WampServer, and PHP will be installed and ready to use.
 
-## 3. Verifying PHP Installation:
+## 3. Understanding the htdocs Folder:
+
+Both XAMPP and WampServer utilize a directory called `htdocs` to store your web files. This is the directory where you'll place your PHP files and other web assets. When you access `http://localhost` in your web browser, it will serve files from this directory.
+
+For beginners, here's how you can find and use the `htdocs` folder:
+
+- **XAMPP**: By default, the `htdocs` folder is located inside the XAMPP installation directory (e.g., `C:\xampp\htdocs`).
+  
+- **WampServer**: The `htdocs` folder is typically located inside the WampServer installation directory (e.g., `C:\wamp64\www`).
+
+Place your PHP files and other web assets inside this folder to serve them via your local web server.
+
+## 4. Verifying PHP Installation:
 
 To verify that PHP is installed correctly, follow these steps:
 
@@ -42,4 +55,4 @@ To verify that PHP is installed correctly, follow these steps:
 - You may need to enable PHP modules/extensions based on your project requirements. This can typically be done by editing the `php.ini` file.
 - For web development, consider installing a web server like Apache or Nginx alongside PHP for serving PHP files via HTTP.
 
-This README provides basic instructions for installing PHP on Windows using XAMPP or WampServer. For more detailed instructions or troubleshooting, please refer to the official documentation of the respective software or community resources.
+This README provides basic instructions for installing PHP on Windows using XAMPP or WampServer, along with information about the `htdocs` folder. For more detailed instructions or troubleshooting, please refer to the official documentation of the respective software or community resources.
